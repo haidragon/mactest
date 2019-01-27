@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E11820BA1C8D0EA600D81D9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E11820B91C8D0EA600D81D9A /* AppDelegate.m */; };
+		E11820BD1C8D0EA600D81D9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E11820BC1C8D0EA600D81D9A /* main.m */; };
+		E11820BF1C8D0EA600D81D9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11820BE1C8D0EA600D81D9A /* Assets.xcassets */; };
+		E11820C21C8D0EA700D81D9A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E11820C01C8D0EA700D81D9A /* MainMenu.xib */; };
+		E11820CB1C8D0EDE00D81D9A /* BaseWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = E11820CA1C8D0EDE00D81D9A /* BaseWindow.m */; };
+		E11820D21C8D0F8900D81D9A /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = E11820D01C8D0F8900D81D9A /* MainWindowController.m */; };
+		E11820D31C8D0F8900D81D9A /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E11820D11C8D0F8900D81D9A /* MainWindowController.xib */; };
+		E11820D71C8D0FB300D81D9A /* NewsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = E11820D51C8D0FB300D81D9A /* NewsWindowController.m */; };
+		E11820D81C8D0FB300D81D9A /* NewsWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E11820D61C8D0FB300D81D9A /* NewsWindowController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E11820B51C8D0EA500D81D9A /* WindowSkip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WindowSkip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11820B81C8D0EA600D81D9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E11820B91C8D0EA600D81D9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E11820BC1C8D0EA600D81D9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E11820BE1C8D0EA600D81D9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E11820C11C8D0EA700D81D9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E11820C31C8D0EA700D81D9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E11820C91C8D0EDE00D81D9A /* BaseWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWindow.h; sourceTree = "<group>"; };
+		E11820CA1C8D0EDE00D81D9A /* BaseWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseWindow.m; sourceTree = "<group>"; };
+		E11820CF1C8D0F8900D81D9A /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		E11820D01C8D0F8900D81D9A /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		E11820D11C8D0F8900D81D9A /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		E11820D41C8D0FB300D81D9A /* NewsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsWindowController.h; sourceTree = "<group>"; };
+		E11820D51C8D0FB300D81D9A /* NewsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsWindowController.m; sourceTree = "<group>"; };
+		E11820D61C8D0FB300D81D9A /* NewsWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsWindowController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E11820B21C8D0EA500D81D9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E11820AC1C8D0EA500D81D9A = {
+			isa = PBXGroup;
+			children = (
+				E11820B71C8D0EA600D81D9A /* WindowSkip */,
+				E11820B61C8D0EA500D81D9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E11820B61C8D0EA500D81D9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E11820B51C8D0EA500D81D9A /* WindowSkip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E11820B71C8D0EA600D81D9A /* WindowSkip */ = {
+			isa = PBXGroup;
+			children = (
+				E11820B81C8D0EA600D81D9A /* AppDelegate.h */,
+				E11820B91C8D0EA600D81D9A /* AppDelegate.m */,
+				E11820CF1C8D0F8900D81D9A /* MainWindowController.h */,
+				E11820D01C8D0F8900D81D9A /* MainWindowController.m */,
+				E11820D11C8D0F8900D81D9A /* MainWindowController.xib */,
+				E11820D41C8D0FB300D81D9A /* NewsWindowController.h */,
+				E11820D51C8D0FB300D81D9A /* NewsWindowController.m */,
+				E11820D61C8D0FB300D81D9A /* NewsWindowController.xib */,
+				E11820C91C8D0EDE00D81D9A /* BaseWindow.h */,
+				E11820CA1C8D0EDE00D81D9A /* BaseWindow.m */,
+				E11820BE1C8D0EA600D81D9A /* Assets.xcassets */,
+				E11820C01C8D0EA700D81D9A /* MainMenu.xib */,
+				E11820C31C8D0EA700D81D9A /* Info.plist */,
+				E11820BB1C8D0EA600D81D9A /* Supporting Files */,
+			);
+			path = WindowSkip;
+			sourceTree = "<group>";
+		};
+		E11820BB1C8D0EA600D81D9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E11820BC1C8D0EA600D81D9A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E11820B41C8D0EA500D81D9A /* WindowSkip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E11820C61C8D0EA700D81D9A /* Build configuration list for PBXNativeTarget "WindowSkip" */;
+			buildPhases = (
+				E11820B11C8D0EA500D81D9A /* Sources */,
+				E11820B21C8D0EA500D81D9A /* Frameworks */,
+				E11820B31C8D0EA500D81D9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WindowSkip;
+			productName = WindowSkip;
+			productReference = E11820B51C8D0EA500D81D9A /* WindowSkip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E11820AD1C8D0EA500D81D9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = 108;
+				TargetAttributes = {
+					E11820B41C8D0EA500D81D9A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E11820B01C8D0EA500D81D9A /* Build configuration list for PBXProject "WindowSkip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E11820AC1C8D0EA500D81D9A;
+			productRefGroup = E11820B61C8D0EA500D81D9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E11820B41C8D0EA500D81D9A /* WindowSkip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E11820B31C8D0EA500D81D9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11820BF1C8D0EA600D81D9A /* Assets.xcassets in Resources */,
+				E11820D31C8D0F8900D81D9A /* MainWindowController.xib in Resources */,
+				E11820D81C8D0FB300D81D9A /* NewsWindowController.xib in Resources */,
+				E11820C21C8D0EA700D81D9A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E11820B11C8D0EA500D81D9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11820D71C8D0FB300D81D9A /* NewsWindowController.m in Sources */,
+				E11820BD1C8D0EA600D81D9A /* main.m in Sources */,
+				E11820BA1C8D0EA600D81D9A /* AppDelegate.m in Sources */,
+				E11820D21C8D0F8900D81D9A /* MainWindowController.m in Sources */,
+				E11820CB1C8D0EDE00D81D9A /* BaseWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E11820C01C8D0EA700D81D9A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E11820C11C8D0EA700D81D9A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E11820C41C8D0EA700D81D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E11820C51C8D0EA700D81D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E11820C71C8D0EA700D81D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WindowSkip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylb.WindowSkip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E11820C81C8D0EA700D81D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WindowSkip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylb.WindowSkip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E11820B01C8D0EA500D81D9A /* Build configuration list for PBXProject "WindowSkip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11820C41C8D0EA700D81D9A /* Debug */,
+				E11820C51C8D0EA700D81D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E11820C61C8D0EA700D81D9A /* Build configuration list for PBXNativeTarget "WindowSkip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E11820C71C8D0EA700D81D9A /* Debug */,
+				E11820C81C8D0EA700D81D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E11820AD1C8D0EA500D81D9A /* Project object */;
+}
